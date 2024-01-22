@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid gold; */
+    background-color: var(--Eggshell);
+}
+
+:root{
+    /* ### Primary */
+
+    --Nutmeg: hsl(14, 45%, 36%);
+    --Dark-Raspberry: hsl(332, 51%, 32%);
+
+    /* ### Neutral */
+
+--White: hsl(0, 0%, 100%);
+--Rose-White: hsl(330, 100%, 98%);
+--Eggshell: hsl(30, 54%, 90%);
+--Light-Grey: hsl(30, 18%, 87%);
+--Wenge-Brown: hsl(30, 10%, 34%);
+--Dark-Charcoal: hsl(24, 5%, 18%);
+}
+
+.Main-container{
+    width: 40%;
+    height: 120%;
+    /* border: 2px solid brown; */
+    /* padding:0 0 0 18px; */
+    /* margin-left: 10px; */
+    padding: 20px;
+    background-color: var(--White);
+    border-radius: 10px;
+}
+
+.left{
+    width: 100%;
+    height: 25%;
+    /* border: 2px solid salmon; */
+}
+
+.left .image-wrapper{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: repeat;
+}
+.left .image-wrapper img{
+    width: 100%;
+    height: 100%;
+    background-image: url(./assets/images/image-omelette.jpeg);
+    background-size: cover;
+    background-repeat: repeat;
+    border-radius: 10px;
+}
+
+.right{
+    width: 100%;
+    height: 75%;
+    /* border: 2px solid blue; */
+}
+
+.heading h1{
+    /* font-size: 20px; */
+    /* border: 2px solid red; */
+    padding: 10px;
+}
+.heading h3{
+    font-size: 20px;
+    padding: 10px;
+    color: var(--Dark-Raspberry);
+}
+
+.heading p{
+    padding: 10px;
+
+}
+
+.heading ul li{
+    font-size: 16px;
+    list-style: inside;
+    padding: 10px;
+    color: var(--Dark-Charcoal);
+    
+}
+.heading ol{
+    font-size: 16px;
+    /* list-style: inside; */
+    padding-left: 10px;
+    /* padding: 10px; */
+}
+.heading ol li{
+    line-height: 1.2rem;
+    /* font-size: 15px; */
+    /* line-height: 1.2rem; */
+    /* list-style: inside; */
+    /* padding-left: 10px; */
+    padding: 10px;
+}
+
+.footer{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+ p{
+color: var(--Wenge-Brown);
+}
+
+.kg-name h5{
+    padding: 5px;
+}
+.kg-num h5{
+    padding: 5px;
+    color: var(--Dark-Raspberry);
+}
